@@ -4,8 +4,13 @@ Related to real time crowd sales . the time at which sales starts in online afte
 
 pragma solidity 0.5.1;
 
+
 contract MyContract {
+    
+    
     uint256 public peopleCount = 0;
+    
+    
     mapping(uint => Person) public people;
 
     uint256 startTime;
